@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI | StudentInsider</title>
+    <!-- Linking Bootstrap CSS styling -->
+    <link rel="stylesheet" href="Bootstrap 5/css/bootstrap.min.css">
+    <!-- Including the FAVICON -->
+    <link rel="icon" href="images/favicon/insider.png" type="Image/jpg">
+    <!-- Linking the Css style file -->
+    <link rel="stylesheet" href="css/Index_Styles.css">
+    <!-- Including AOS CSS animation for animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Linking Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- linking JS File -->
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <!-- navbar/Header section -->
+    <nav class="navbar navbar-expand-lg bg-danger" ; id="Header">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/favicon/insider.png" alt="" height="55px"
+                    style="padding-left:10px;"></a>
+            <!--including a toggler button for  header/navbar-->
+            <!-- Toggler button start -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ;></span>
+            </button>
+            <!-- Toggler button end -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"
+                            style="color: beige;"><strong>HOME</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login_Page.html" style="color: beige;">LOGIN/SIGNUP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="CareerGuidence.html" style="color: beige;">CAREERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Blogs.html" style="color: beige;">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tutoring.html" style="color: beige;">TUTORING</a>
+                    </li>
+                </ul>
+                <a style="position: relative;" class="nav-link" href="#" style="color: beige;">
+                    <img src="images/Interface icons/work-ezgif.com-gif-maker.gif" alt="" height="50px">
+                </a>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel  -->
+    <!-- START -->
+    <main data-aos="zoom-in" data-aos-duration="1500">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"
+                    style="background-image: url(images/Banner/robert-katzki-jbtfM0XBeRc-unsplash.jpg);">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Example headline.</h1>
+                            <p>Some representative placeholder content for the first slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url(images/Banner/greyson-joralemon-9IBqihqhuHc-unsplash.jpg);">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 style="">Another example headline.</h1>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url(images/Banner/kimberly-farmer-lUaaKCUANVI-unsplash.jpg);">
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>One more for good measure.</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <!-- EMD -->
+
+    <!-- the Welcome tittle of the home page -->
+    <div id="AboutTittle" class="row" data-aos="fade-down" data-aos-duration="1500">
+        <h4>Welcome To</h4>
+        <h1 class="CompanyName">StudentInsider</h1>
+    </div>
+    <!-- The About Section of the home page -->
+    <div class="container" id="AboutSection" style="padding: 30px;">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="AboutSection_img_1">
+                    <img src="images/home page images/about us.jpg" alt="" height="400px" width="100%"
+                        style="border-radius: 15px;">
+                </div>
+            </div>
+            <div id="text" class="col-xl-6 col-lg-6 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="Container_Text">
+                    <div class="container">
+                        <h1 class="Heading">About us</h1>
+                    </div>
+                    <h5>Welcome to the captivating world of photography through the lens of [Photographer's Name].
+                        Explore a portfolio that marries artistry with technical prowess,
+                        showcasing a diverse array of subjects and moods captured with precision and passion. Each
+                        photograph tells a unique story, whether it's the timeless elegance of portraiture,
+                        the raw beauty of landscapes bathed in natural light, or the dynamic energy of urban scenes
+                        frozen in time. With a keen eye for detail and a commitment to capturing fleeting moments,
+                        [Photographer's Name] transforms ordinary scenes into extraordinary visual narratives that
+                        resonate with depth and emotion.</h5>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div id="text" class="col-xl-6 col-lg-6 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="Container_Text">
+                    <div class="Heading">
+                        <h1>What we do</h1>
+                    </div>
+                    <h5>we specialize in capturing moments that transcend time,
+                        offering a range of services tailored to meet your visual storytelling needs.
+                        Whether you're planning a corporate event, a personal celebration,
+                        or a commercial project, we bring a blend of creativity and technical expertise to every
+                        assignment.
+                        Our services encompass professional photography for weddings, portraits, events, and editorial
+                        projects,
+                        ensuring each image reflects the essence and emotion of the moment.</h5>
+                    <h5>At [Photographer's Name], we specialize in capturing moments that transcend time, offering a
+                        range of services tailored to meet your visual storytelling needs. </h5>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 " data-aos="zoom-in" data-aos-duration="1500">
+                <div class="AboutSection_img_2">
+                    <img src="images//home page images/what we do.jpg" alt="" height="400px" width="100%"
+                        style="border-radius: 15px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid" data-aos="fade-right" data-aos-duration="1500" style=" display:inline-block; 
+    background-color:#FF7F3E;
+    color: #20301C; 
+    text-align: center;
+    color: beige;">
+        <h1 class="CompanyName">Development Team Members</h1>
+    </div>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img style="object-fit: cover;" src="images/DEVS MEMBER PHOTOS/Victor.jpg" alt=""
+                            height="250rem">
+                        <div class="card-body bg-warning">
+                            <h4>VICTOR NXUMALO</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img style="object-fit: cover;" src="images/DEVS MEMBER PHOTOS/Sibusiso.jpg" alt=""
+                            height="250rem">
+                        <div class="card-body bg-warning">
+                            <h4>SIBUSISO NDLOVU</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img style="object-fit: cover;" src="images/DEVS MEMBER PHOTOS/acona 1.jpg" alt=""
+                            height="250rem">
+                        <div class="card-body bg-warning">
+                            <h4>ACONA MTHEMBU</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img style="object-fit: cover;" src="images/DEVS MEMBER PHOTOS/Kevin.jpg" alt=""
+                            height="250rem">
+                        <div class="card-body bg-warning">
+                            <h4>KEVIN NYATOLO</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img style="object-fit: cover;" src="images/DEVS MEMBER PHOTOS/k.jpg" alt="" height="250rem">
+                        <div class="card-body bg-warning">
+                            <h4>KHANYISILE</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img style="object-fit: cover;" src="images/DEVS MEMBER PHOTOS/Ot1.jpg" alt="" height="250rem">
+                        <div class="card-body bg-warning">
+                            <h4>OTEY</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="footer_option"
+                    style="color: white; text-align: center; display: flex; justify-content: center;">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="footer_option_1">
+                                <h5>About us</h5>
+                                <p>"Formed in 2006 by Matt Hobbs and Cael Jones, Videoprah is an award-winning,
+                                    full-service
+                                    production company specializing."</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6"></div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer_top" style="display: flex; justify-content: center; gap: 10px; padding-top: 10px;">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="Footer_Socials">
+                                    <a href=""><img src="images/socials icons/facebook.png" alt=""
+                                            height="50px" style="margin-right: 10px;"></a>
+                                    <a href=""><img src="images/socials icons/instagram.png" alt=""
+                                            height="50px" style="margin-right: 10px;"></a>
+                                    <a href=""><img src="images/socials icons/twitter.png" alt=""
+                                            height="50px" style="margin-right: 10px;"></a>
+                                    <a href=""><img src="images/socials icons/linkedin.png" alt=""
+                                            height="50px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="footer_option"
+                        style=" text-align: center; display: flex; justify-content: center;">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="footer_option_1">
+                                    <h5 style="font-size: 20px;">About us</h5>
+                                    <p>"Formed in 2006 by Matt Hobbs and Cael Jones, Videoprah is an award-winning, full-service
+                                        production company specializing."</p>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- linking Bootstrap JS  -->
+            <script src="Bootstrap 5/js/bootstrap.min.js"></script>
+            <!-- Linking AOS Animation JS -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+</body>
+
+</html>

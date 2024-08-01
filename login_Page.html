@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SI | StudentInsider</title>
+  <!-- External CSS styling -->
+  <link rel="stylesheet" href="css/Login.Styles.css">
+  <!-- Including the FAVICON -->
+  <link rel="icon" href="images/favicon/insider.png" type="Image/jpg">
+  <!-- Linking Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Including AOS CSS animation for animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="Bootstrap 5/css/bootstrap.min.css">
+</head>
+
+<body style=" font-family: Outfit;">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/favicon/insider.png" alt="" height="55px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Register.html">REGISTER</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+</header>
+  <div class="imgcontainer" data-aos="zoom-in" data-aos-duration="1500" >
+    <img src="images/favicon/insider.png" alt="Avatar" class="avatar" height="150px" >
+    <div class="Header">
+      <h2>StudentInsider</h2>
+    </div>
+  </div>
+  <div class="SignIn_Section">
+    <img src="images/Banner/robert-katzki-jbtfM0XBeRc-unsplash.jpg" alt="" class="signin-image"  data-aos="zoom-in" data-aos-duration="1500">
+    <div class="signin-form-container col-lg-6" data-aos="zoom-in" data-aos-duration="1500">
+      <form action="action_page.php" method="post">
+        <div class="form-container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <button type="submit"><strong>LOGIN</strong></button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+        <div>
+          <button type="button" class="cancelbtn"><strong>CANCEL</strong></button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+         
+      </form>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+        <div class="footer_top" style="display: flex; justify-content: center; gap: 10px; padding-top: 10px;">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="Footer_Socials">
+                        <a href=""><img src="images/socials icons/facebook.png" alt=""
+                                height="50px" style="margin-right: 10px;"></a>
+                        <a href=""><img src="images/socials icons/instagram.png" alt=""
+                                height="50px" style="margin-right: 10px;"></a>
+                        <a href=""><img src="images/socials icons/twitter.png" alt=""
+                                height="50px" style="margin-right: 10px;"></a>
+                        <a href=""><img src="images/socials icons/linkedin.png" alt=""
+                                height="50px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_option"
+            style=" text-align: center; display: flex; justify-content: center;">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="footer_option_1">
+                        <h5 style="font-size: 20px;">About us</h5>
+                        <p>"Formed in 2006 by Matt Hobbs and Cael Jones, Videoprah is an award-winning, full-service
+                            production company specializing."</p>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+  <!-- Linking AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
